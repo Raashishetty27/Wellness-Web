@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-box" id="chatBox">
+        </div>
+        <div class="response-buttons" id="responseButtons">
+            <button class="response-btn" onclick="insertResponse('hello')">Hello</button>
+            <button class="response-btn" onclick="insertResponse('how are you')">How are you?</button>
+            <button class="response-btn" onclick="insertResponse('bye')">Bye</button>
+            <button class="response-btn" onclick="insertResponse('i have been feeling really stressed lately. any tips on managing it?')">i have been feeling really stressed lately. any tips on managing it?</button>
+            <button class="response-btn" onclick="insertResponse('i have been feeling down for a while. how do i know if it’s depression?')">i have been feeling down for a while. how do i know if it’s depression?</button>
+            <button class="response-btn" onclick="insertResponse('can i do a mental health self-assessment?')">can i do a mental health self-assessment?</button>
+        </div>
+        <div class="input-container">
+            <input type="text" id="userInput" placeholder="Type your message here..." />
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script src="chatbot.js"></script>
+</body>
+</html>

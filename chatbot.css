@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #cbe1f2;  /* Light blue background */
+}
+
+.chat-container {
+    width: 1000px;
+    height: 700px;
+    background-color: #a1cbec;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.chat-box {
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #d9cbf0;  /* Light lilac border for input */
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #e6e6fa;  /* Light lavender background for input */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #6a4c9c;  /* Purple button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5b3c7e;  /* Slightly darker purple on hover */
+}
+
+/* Style for user messages */
+.user {
+    align-self: flex-end;
+    background-color: #6a4c9c;  /* Light lilac for user messages */
+    color: #d9cbf0;  /* Purple text for user */
+    padding: 8px 15px;
+    border-radius: 15px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+/* Style for bot messages */
+.bot {
+    align-self: flex-start;
+    background-color: #e6e6fa;  /* Light lavender for bot messages */
+    color: #6a4c9c;  /* Purple text for bot */
+    padding: 8px 15px;
+    border-radius: 15px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+/* Horizontal scrolling for response buttons */
+.response-buttons {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+}
+
+.response-btn {
+    margin-right: 10px;
+    padding: 8px 12px;
+    background-color: #d0bcf1;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.response-btn:hover {
+    background-color: #c6a9f3;
+}
+

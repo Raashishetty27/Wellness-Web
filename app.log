@@ -1,0 +1,36 @@
+2024-11-25T04:14:32.759Z [INFO]: Directory:
+2024-11-25T04:14:32.770Z [INFO]: [38;2;3;140;252mListening for changes on: C:\Users\pranu\OneDrive\Documents\WellnessWeb[39m
+2024-11-25T04:14:32.770Z [INFO]: Runtime directory: C:\LiveReload\runtime
+2024-11-25T04:14:32.778Z [INFO]: Cleaning public directory
+2024-11-25T04:14:32.788Z [INFO]: Cleaned the public directory
+2024-11-25T04:14:32.808Z [INFO]: Change in C:\Users\pranu\OneDrive\Documents\WellnessWeb detected..updating public directory..
+2024-11-25T04:15:21.057Z [INFO]: [38;2;252;3;53mShutting down server...[39m
+2024-11-25T04:15:21.060Z [INFO]: Cleaning public directory
+2024-11-25T04:15:22.204Z [ERROR]: Error cleaning the public directory:  ENOTEMPTY: directory not empty, rmdir 'C:\LiveReload\runtime\public\node_modules\mongoose\lib\helpers'
+2024-11-25T04:15:28.662Z [INFO]: Directory:
+2024-11-25T04:15:28.670Z [INFO]: [38;2;3;140;252mListening for changes on: C:\Users\pranu\OneDrive\Documents\WellnessWeb[39m
+2024-11-25T04:15:28.671Z [INFO]: Runtime directory: C:\LiveReload\runtime
+2024-11-25T04:15:28.682Z [INFO]: Cleaning public directory
+2024-11-25T04:15:28.783Z [INFO]: Cleaned the public directory
+2024-11-25T04:15:28.817Z [INFO]: Change in C:\Users\pranu\OneDrive\Documents\WellnessWeb detected..updating public directory..
+2024-11-25T04:15:30.550Z [INFO]: [38;2;252;3;53mShutting down server...[39m
+2024-11-25T04:15:30.555Z [INFO]: Cleaning public directory
+2024-11-25T04:15:30.784Z [ERROR]: Error cleaning the public directory:  ENOTEMPTY: directory not empty, rmdir 'C:\LiveReload\runtime\public\node_modules\@types'
+2024-11-25T04:15:33.363Z [INFO]: Directory:
+2024-11-25T04:15:33.371Z [INFO]: [38;2;3;140;252mListening for changes on: C:\Users\pranu\OneDrive\Documents\WellnessWeb[39m
+2024-11-25T04:15:33.372Z [INFO]: Runtime directory: C:\LiveReload\runtime
+2024-11-25T04:15:33.384Z [INFO]: Cleaning public directory
+2024-11-25T04:15:33.519Z [INFO]: Cleaned the public directory
+2024-11-25T04:15:33.533Z [INFO]: Change in C:\Users\pranu\OneDrive\Documents\WellnessWeb detected..updating public directory..
+2024-11-25T04:15:40.750Z [INFO]: [38;2;252;3;53mShutting down server...[39m
+2024-11-25T04:15:40.755Z [INFO]: Cleaning public directory
+2024-11-25T04:15:41.368Z [ERROR]: Error cleaning the public directory:  ENOTEMPTY: directory not empty, rmdir 'C:\LiveReload\runtime\public\node_modules\gopd'
+2024-11-25T04:15:52.492Z [INFO]: Directory:
+2024-11-25T04:15:52.513Z [INFO]: [38;2;3;140;252mListening for changes on: C:\Users\pranu\OneDrive\Documents\WellnessWeb[39m
+2024-11-25T04:15:52.516Z [INFO]: Runtime directory: C:\LiveReload\runtime
+2024-11-25T04:15:52.529Z [INFO]: Cleaning public directory
+2024-11-25T04:15:52.668Z [INFO]: Cleaned the public directory
+2024-11-25T04:15:52.687Z [INFO]: Change in C:\Users\pranu\OneDrive\Documents\WellnessWeb detected..updating public directory..
+2024-11-25T04:15:56.569Z [INFO]: [38;2;252;3;53mShutting down server...[39m
+2024-11-25T04:15:56.572Z [INFO]: Cleaning public directory
+2024-11-25T04:15:57.129Z [ERROR]: Error cleaning the public directory:  ENOTEMPTY: directory not empty, rmdir 'C:\LiveReload\runtime\public\node_modules\bson\vendor\base64'
